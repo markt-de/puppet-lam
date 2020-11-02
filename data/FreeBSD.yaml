@@ -1,0 +1,4 @@
+---
+lam::group: 'www'
+lam::installroot: '/usr/local/www'
+lam::user: 'www'

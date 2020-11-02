@@ -1,0 +1,8 @@
+---
+lam::edition: 'oss'
+lam::datadir: "%{lookup('lam::installroot')}/lam-data"
+lam::installroot: '/opt'
+lam::manage_symlink: true
+lam::mirror: 'http://prdownloads.sourceforge.net/lam/%s?download'
+lam::path: '/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin'
+lam::symlink_name: 'lam'
