@@ -10,6 +10,7 @@
 1. [Requirements](#requirements)
 1. [Usage](#usage)
     - [Basic usage](#basic-usage)
+    - [Pro edition](#pro-edition)
 1. [Reference](#reference)
 1. [Development](#development)
     - [Contributing](#contributing)
@@ -38,7 +39,7 @@ class { 'lam':
 
 This will install and configure LAM. You should use the symlink target (which defaults to `/opt/lam`) as the document root when setting up the webserver.
 
-LAM needs write access to several directories, so if your webserver runs with a different user account, you should specify:
+LAM needs write access to several directories, so if your webserver runs with a different user account, you should specify the following additional parameters:
 
 ```puppet
 class { 'lam':
