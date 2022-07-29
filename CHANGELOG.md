@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Update OS version, Puppet version and dependencies
 * Update PDK from 1.18.1 to 2.5.0
 
+### Fixed
+Fix unit test
 
 ## v1.0.0
 Initial release
