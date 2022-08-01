@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Update PDK from 1.18.1 to 2.5.0
 
 ### Fixed
-Fix unit test
+* Fix unit test
 
 ## v1.0.0
 Initial release
