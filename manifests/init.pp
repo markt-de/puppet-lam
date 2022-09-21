@@ -15,9 +15,18 @@
 #   Specifies the base directory where LAM should be installed. A new
 #   subdirectory for each version will be created.
 #
+# @param manage_symlink
+#    Enable maintaining a symlink that points to the current version.
+#
 # @param mirror
 #   Specifies the base URL where the distribution archive can be downloaded.
 #   Useful when providing a local mirror for the Pro edition.
+#
+# @param path
+#   Set the $PATH environment variable.
+#
+# @param symlink_name
+#    Name of the symlink if manage_symlink is set to true.
 #
 # @param user
 #   The name of the user that is used by the webserver process.
