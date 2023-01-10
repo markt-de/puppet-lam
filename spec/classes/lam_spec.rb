@@ -10,8 +10,26 @@ describe 'lam' do
       let(:dist_dir) { 'ldap-account-manager-7.3' }
       let(:install_root) { '/opt' }
       let(:install_root_alt) { '/mnt' }
-      let(:lam_group) { 'apache' }
-      let(:lam_user) { 'apache' }
+      let(:lam_group) do
+        case facts[:os]['family']
+        when 'Debian'
+          'www-data'
+        when 'FreeBSD'
+          'www'
+        when 'RedHat'
+          'apache'
+        end
+      end
+      let(:lam_user) do
+        case facts[:os]['family']
+        when 'Debian'
+          'www-data'
+        when 'FreeBSD'
+          'www'
+        when 'RedHat'
+          'apache'
+        end
+      end
       let(:lam_version) { '7.3' }
       let(:symlink_name) { '/opt/lam' }
 
