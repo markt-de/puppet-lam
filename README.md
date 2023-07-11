@@ -1,8 +1,8 @@
 # puppet-lam
 
 [![Build Status](https://travis-ci.org/markt-de/puppet-lam.png?branch=master)](https://travis-ci.org/markt-de/puppet-lam)
-[![Puppet Forge](https://img.shields.io/puppetforge/v/fraenki/lam.svg)](https://forge.puppetlabs.com/fraenki/lam)
-[![Puppet Forge](https://img.shields.io/puppetforge/f/fraenki/lam.svg)](https://forge.puppetlabs.com/fraenki/lam)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/markt/lam.svg)](https://forge.puppetlabs.com/markt/lam)
+[![Puppet Forge](https://img.shields.io/puppetforge/f/markt/lam.svg)](https://forge.puppetlabs.com/markt/lam)
 
 #### Table of Contents
 
