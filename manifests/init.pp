@@ -35,10 +35,10 @@
 #   Specifies the version of LAM that should be installed.
 #
 class lam (
-  Stdlib::Compat::Absolute_path $datadir,
+  Stdlib::Absolutepath $datadir,
   Enum['oss', 'pro'] $edition,
   String $group,
-  Stdlib::Compat::Absolute_path $installroot,
+  Stdlib::Absolutepath $installroot,
   Boolean $manage_symlink,
   Variant[Stdlib::HTTPUrl,Stdlib::HTTPSUrl] $mirror,
   String $path,
