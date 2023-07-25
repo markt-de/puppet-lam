@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [v1.3.0] - 2023-07-25
+
+### Changed
+* Update module dependencies and OS support
+
+### Fixed
+* Fix GitHub Actions
+* Fix compatibility with puppetlabs/stdlib v9.0.0
+
 ## [v1.2.0] - 2023-01-10
 
 ### Fixed
@@ -27,7 +36,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## v1.0.0 - 2020-11-02
 Initial release
 
-[Unreleased]: https://github.com/markt-de/puppet-lam/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/markt-de/puppet-lam/compare/v1.3.0...HEAD
+[v1.3.0]: https://github.com/markt-de/puppet-lam/compare/v1.2.0...v1.3.0
 [v1.2.0]: https://github.com/markt-de/puppet-lam/compare/v1.1.1...v1.2.0
 [v1.1.1]: https://github.com/markt-de/puppet-lam/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/markt-de/puppet-lam/compare/v1.0.0...v1.1.0
